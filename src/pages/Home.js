@@ -8,7 +8,7 @@ const Home = () => {
     const [initialBooks, setInitialBooks] = useState([]);
     const [filteredBooks, setFilteredBooks] = useState([]);
 
-    // Fetch initial book list when component mounts
+    // Fetch initial book list
     useEffect(() => {
         const fetchInitialBooks = async () => {
             try {
