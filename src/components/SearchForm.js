@@ -6,7 +6,6 @@ const SearchForm = ({ onSearch }) => {
     const handleInputChange = (event) => {
         setQuery(event.target.value);
     };
-
     const handleSubmit = (event) => {
         event.preventDefault();
         onSearch(query);
