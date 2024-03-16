@@ -7,7 +7,7 @@ const App = () => {
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
-                {/* Add routes for additional pages if needed */}
+                {/* Legg til ruter for flere sider om nødvendig */}
             </Routes>
         </Router>
     );
