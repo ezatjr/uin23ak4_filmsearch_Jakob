@@ -8,7 +8,7 @@ const Home = () => {
     const [initialBooks, setInitialBooks] = useState([]);
     const [filteredBooks, setFilteredBooks] = useState([]);
 
-    // Fetch initial book list
+    // Hent innledende bokliste
     useEffect(() => {
         const fetchInitialBooks = async () => {
             try {
@@ -31,7 +31,7 @@ const Home = () => {
             );
             setFilteredBooks(filtered);
         } else {
-            // If query length is less than 3, reset to initial books
+            // Hvis søkelengden er mindre enn 3, tilbakestill til de første bøkene
             setFilteredBooks(initialBooks);
         }
     };
