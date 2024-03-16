@@ -3,7 +3,6 @@ import '../styles/BookCard.scss';
 
 const BookCard = ({ book, averageRating }) => {
   const amazonUrl = `https://www.amazon.com/s?k=${book.title}`; // Construct Amazon search URL
-
   return (
     <div className="book-card">
       <h3>{book.title}</h3>
