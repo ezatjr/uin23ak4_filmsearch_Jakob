@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/BookCard.scss';
 
 const BookCard = ({ book, averageRating }) => {
-  const amazonUrl = `https://www.amazon.com/s?k=${book.title}`; // Construct Amazon search URL
+  const amazonUrl = `https://www.amazon.com/s?k=${book.title}`; //Konstruer Amazon-søk-URL
   
   return (
     <div className="book-card">
