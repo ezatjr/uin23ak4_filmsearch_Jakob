@@ -16,6 +16,6 @@ const BookCard = ({ book, averageRating }) => {
       </a>
     </div>
   );
-};a
+};
 
 export default BookCard;
