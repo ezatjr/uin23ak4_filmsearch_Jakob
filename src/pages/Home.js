@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SearchForm from '../components/SearchForm';
 import BookList from '../components/BookList';
-import MovieProfile from '../components/MovieProfile';
 import '../styles/SearchForm.scss';
 
 const Home = () => {
